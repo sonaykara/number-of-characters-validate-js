@@ -1,0 +1,68 @@
+$backgorun-color : #C96767;
+
+@mixin alias {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    @include alias();
+    @include flex-center();
+    height: 100vh;
+}
+
+
+.main {
+    width: 32rem;
+    height: 32rem;
+    background-color: $backgorun-color;
+    @include flex-column-center();
+    border-radius: 1.5rem ;
+    -webkit-border-radius: 1.5rem ;
+    -moz-border-radius: 1.5rem ;
+    -ms-border-radius: 1.5rem ;
+    -o-border-radius: 1.5rem ;
+
+    .text-area {
+        padding: 1.3rem;
+    
+        
+    }
+
+    textarea {
+        width: 28rem;
+        height: 12.5rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        border: none;
+        outline: none;
+        resize: none;
+        margin-top: 1.4rem;
+    }
+}
+
+
+
+.char-area {
+    @include flex-center();
+    gap: 3rem;
+}
+
+

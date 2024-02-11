@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 32rem;
+  height: 32rem;
+  background-color: #C96767;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.main .text-area {
+  padding: 1.3rem;
+}
+.main textarea {
+  width: 28rem;
+  height: 12.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-top: 1.4rem;
+}
+
+.char-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}/*# sourceMappingURL=style.css.map */
