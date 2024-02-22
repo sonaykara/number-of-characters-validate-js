@@ -12,7 +12,7 @@ This project is a dynamic character count validator for an input field, which al
 
 
 
-
+<br>
 <img src  ="https://github.com/sonaykara/number-of-characters-validate-js/assets/108528598/79f2abb3-377b-4500-959e-7c740311b848" width="700" height="500">
 
 
